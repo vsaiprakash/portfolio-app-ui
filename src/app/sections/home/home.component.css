@@ -7,5 +7,12 @@
 
 .custom-card{
     transform: rotate(-7deg);
+
+    padding: 20px;
     margin: 50px;
+}
+
+.intro-image {
+    height: 70vh;
+    
 }

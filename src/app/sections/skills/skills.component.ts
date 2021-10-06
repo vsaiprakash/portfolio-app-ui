@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SectionControllerService } from '../section-controller.service';
 
 @Component({
   selector: 'app-skills',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SkillsComponent implements OnInit {
 
-  constructor() { }
+  constructor(private sectionController: SectionControllerService) { }
 
   ngOnInit(): void {
+  }
+
+  goToHeaderSection(){
+    this.sectionController.updateSection(0);
   }
 
 }

@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio-app-ui';
+
+  scrollToSectionId(sectionId: string): void {
+    let elmnt = document.getElementById(sectionId);
+    elmnt.scrollIntoView();
+  }
 }

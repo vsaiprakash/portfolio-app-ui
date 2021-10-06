@@ -5,12 +5,18 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuBarComponent } from './sections/menu-bar/menu-bar.component';
 import { HomeComponent } from './sections/home/home.component';
+import { SkillsComponent } from './sections/skills/skills.component';
+import { ProjectsComponent } from './sections/projects/projects.component';
+import { ContactMeComponent } from './sections/contact-me/contact-me.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     MenuBarComponent,
-    HomeComponent
+    HomeComponent,
+    SkillsComponent,
+    ProjectsComponent,
+    ContactMeComponent
   ],
   imports: [
     BrowserModule,

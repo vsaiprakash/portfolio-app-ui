@@ -1,7 +1,7 @@
 .body{
     padding: 50px;
     height: 100vh;
-    background-color:lemonchiffon;
+    background-color: var(--contact-me);
     /* height: 100%; */
 }
 

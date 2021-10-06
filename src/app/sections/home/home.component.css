@@ -2,7 +2,7 @@
     padding: 50px;
     height: 100vh;
     /* background-color:papayawhip; */
-    background-color: #61abff;
+    background-color: var(--home);
     /* height: 100%; */
 }
 

@@ -1,6 +1,6 @@
 .body{
     padding: 50px;
     height: 100vh;
-    background-color: bisque;
+    background-color: var(--projects);
     /* height: 100%; */
 }

@@ -3,3 +3,10 @@
 .clickable {
     cursor: pointer;
 }
+
+body{
+    --home: #61abff;
+    --skills: #ffb5b5;
+    --projects: bisque;
+    --contact-me: lemonchiffon;
+}

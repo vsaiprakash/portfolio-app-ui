@@ -1,0 +1,19 @@
+.nav-link {
+    color:aliceblue !important;
+}
+
+.contact-me-button:hover{
+    color: var(--contact-me) !important;
+}
+
+.projects-button:hover{
+    color: var(--projects) !important;
+}
+
+.skills-button:hover{
+    color: var(--skills) !important;
+}
+
+.home-button:hover{
+    color: var(--home) !important;
+}

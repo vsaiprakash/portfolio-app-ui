@@ -1,4 +1,11 @@
-body{
-    max-height: 100vh;
-    min-height: 100vh;
+.body{
+    padding: 50px;
+    height: 100vh;
+    background-color:papayawhip;
+    /* height: 100%; */
+}
+
+.custom-card{
+    transform: rotate(-7deg);
+    margin: 50px;
 }

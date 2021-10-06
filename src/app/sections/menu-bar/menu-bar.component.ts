@@ -13,19 +13,23 @@ export class MenuBarComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  goToHomeSection(){
+  goToHeaderSection(){
     this.sectionController.updateSection(0);
   }
 
-  goToSkillsSection(){
+  goToHomeSection(){
     this.sectionController.updateSection(1);
   }
 
-  goToProjectsSection(){
+  goToSkillsSection(){
     this.sectionController.updateSection(2);
   }
 
-  goToContactMeSection(){
+  goToProjectsSection(){
     this.sectionController.updateSection(3);
+  }
+
+  goToContactMeSection(){
+    this.sectionController.updateSection(4);
   }
 }

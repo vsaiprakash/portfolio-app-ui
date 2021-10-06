@@ -12,6 +12,7 @@ export class SectionControllerService {
 
   constructor() {
     this.sections = [
+      "header",
       "home",
       "skills",
       "projects",

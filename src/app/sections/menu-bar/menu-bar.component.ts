@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { SectionControllerService } from '../section-controller.service';
 
 @Component({
   selector: 'app-menu-bar',
@@ -7,10 +8,24 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MenuBarComponent implements OnInit {
 
-  constructor() { }
+  constructor(private sectionController: SectionControllerService) { }
 
   ngOnInit(): void {
   }
 
+  goToHomeSection(){
+    this.sectionController.updateSection(0);
+  }
 
+  goToSkillsSection(){
+    this.sectionController.updateSection(1);
+  }
+
+  goToProjectsSection(){
+    this.sectionController.updateSection(2);
+  }
+
+  goToContactMeSection(){
+    this.sectionController.updateSection(3);
+  }
 }

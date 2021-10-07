@@ -14,12 +14,12 @@ export class SkillsComponent implements OnInit {
 
   constructor(private sectionController: SectionControllerService) {
     this.skillsList = [
-      { title: "Angular", img: "assets/images/colleagues.svg" },
-      { title: "NodeJs", img: "assets/images/colleagues.svg" },
-      { title: "ExpressJs", img: "assets/images/colleagues.svg" },
-      { title: "Java", img: "assets/images/colleagues.svg" },
-      { title: "AWS", img: "assets/images/colleagues.svg" },
-      { title: "Firebase", img: "assets/images/colleagues.svg" }
+      { title: "Angular", img: "assets/images/skills/angular-logo.svg" },
+      { title: "NodeJs", img: "assets/images/skills/nodejs-logo.svg" },
+      { title: "ExpressJs", img: "assets/images/skills/expressjs-logo.svg" },
+      { title: "Java", img: "assets/images/skills/java-logo.svg" },
+      { title: "AWS", img: "assets/images/skills/aws-logo.svg" },
+      { title: "Firebase", img: "assets/images/skills/firebase-logo.svg" }
     ];
     // let row4x = [];
     // let row2x = [];

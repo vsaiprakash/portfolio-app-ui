@@ -4,7 +4,10 @@
     <div class="skills-container justify-content-center">
         <div *ngFor="let skill of skillsList">
             <div class="card shadow">
+              <div class="skill-img-container">
                 <img class="card-img-top skill-img" [src]="skill.img" alt="Card image cap">
+              </div>
+                
                 <div class="card-body">
                   <h5 class="card-title">{{skill.title}}</h5>
                   <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->

@@ -12,6 +12,12 @@
     gap: 20px;
 }
 
+.skill-img-container {
+    padding: 10px;
+    height: 100px;
+    width: 150px;
+}
+
 .skill-img {
-    height: 20vh;
+    height: inherit;
 }

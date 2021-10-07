@@ -10,3 +10,12 @@ body{
     --projects: bisque;
     --contact-me: lemonchiffon;
 }
+
+/* Go To Top - Button */
+.go-to-top {
+    opacity: 0.3;
+    font-size:x-large;
+}
+.go-to-top:hover{
+    opacity: 1;
+}

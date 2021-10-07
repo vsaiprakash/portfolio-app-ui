@@ -1,35 +1,100 @@
 .body{
-    padding: 50px;
+    /* padding: 50px;
+    height: 100vh; */
     height: 100vh;
-    /* background-color:papayawhip; */
     background-color: var(--home);
-    /* height: 100%; */
 }
 
 .stack-body {
     display:flex;
 }
 
-.custom-card{
+.custom-card {
     z-index: 2;
     transform: rotate(-7deg);
-
-    padding: 20px;
-    margin: 50px;
 }
 
 .dummy-card{
     z-index: 1;
     transform: rotate(6deg);
+    position: absolute;
+}
+
+@media only screen and (min-width: 769px) {
+    /* For Desktops & Laptops: */
+    .body{
+        padding: 50px;
+    }
+
+    .custom-card {
+        padding: 20px;
+        margin: 50px;
+        width: 40vw;
+        min-height: 50vh;
+    }
+
+    .dummy-card{
+        padding: 20px;
+        margin: 50px;
+        min-height: 50vh;
+        /* height: 300px; */
+        width: 40vw;
+        /* height is important for dummy card since it doesn't have any content */
+    }
+
+    .intro-image {
+        padding: 10px;
+        margin: 5px;
+        height: 60vh;
+        /* height: 50%; */
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .body{
+        padding: 10px;
+        position: center;
+    }
+
+    .custom-card {
+        /* font-size:smaller; */
+        font-size :x-small;
+        padding: 10px;
+        margin: 30px;
+        width: 50vw;
+        min-height: 30vh;
+        /* height: 50%; */
+    }
+
+    .dummy-card{
+        padding: 20px;
+        margin: 50px;
+        min-height: 30vh;
+        /* height: 300px; */
+        width: 50vw;
+        /* height is important for dummy card since it doesn't have any content */
+    }
+
+    .intro-image {
+        padding: 10px;
+        margin: 5px;
+        height: 35vh;
+        /* height: 50%; */
+        position: relative;
+    }
+}
+
+/* .custom-card {
+    z-index: 2;
+    transform: rotate(-7deg);
 
     padding: 20px;
     margin: 50px;
-    position: absolute;
-    height: 300px;
-    /* height is important for dummy card since it doesn't have any content */
-}
 
-.intro-image {
-    height: 70vh;
-    
-}
+    width: 40vw;
+    min-height: 50vh;
+} */
+
+

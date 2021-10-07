@@ -25,6 +25,8 @@
     padding: 20px;
     margin: 50px;
     position: absolute;
+    height: 300px;
+    /* height is important for dummy card since it doesn't have any content */
 }
 
 .intro-image {

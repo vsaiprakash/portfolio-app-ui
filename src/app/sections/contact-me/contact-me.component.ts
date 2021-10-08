@@ -8,7 +8,15 @@ import { SectionControllerService } from '../section-controller.service';
 })
 export class ContactMeComponent implements OnInit {
 
-  constructor(private sectionController: SectionControllerService) { }
+  socialsList: any[];
+
+  constructor(private sectionController: SectionControllerService) {
+    this.socialsList = [
+      { title: "Github", img: "assets/images/socials/github-logo.svg", link: "https://github.com/vsaiprakash" },
+      { title: "LinkedIn", img: "assets/images/socials/linkedin-logo.svg", link: "https://www.linkedin.com/in/vsaiprakash" },
+      { title: "Instagram", img: "assets/images/socials/instagram-logo.svg", link: "https://www.instagram.com/specteller" }
+    ]
+  }
 
   ngOnInit(): void {
   }

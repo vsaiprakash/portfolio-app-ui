@@ -1,35 +1,42 @@
 <div class="body">
-    <i class="bi bi-arrow-up-circle-fill clickable go-to-top" 
-    (click)="goToHeaderSection()"
-    data-toggle="tooltip" data-placement="top" title="Go back to start"></i>
+    <i class="bi bi-arrow-up-circle-fill clickable go-to-top" (click)="goToHeaderSection()" data-toggle="tooltip"
+        data-placement="top" title="Go back to start"></i>
     <div class="container">
         <div class="row">
             <!-- justify-content-center centers the objects -->
             <div class="col-md-6 col-sm-12 details-content justify-content-center">
-                <div class="row">
-                    <div class="card custom-card shadow">
-                        <div class="card-body">
-                            <h5 class="card-title">Hello, I am Sai Prakash</h5>
-                            <p class="card-text">I am Passionate to work in the field of Software and
-                                 Web Development of both Front-end and Back-end by keeping up in pace with
-                                  the newly emerging Technologies and contributing to the Organization.</p>
+                <div class="container">
+                    <div class="row">
+                        <div class="card custom-card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Hello, I am Sai Prakash</h5>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="card custom-card shadow">
-                        <div class="card-body">
-                            <h5 class="card-title">Ping Me on ...</h5>
-                            <p class="card-text">I am Passionate to work in the field of Software and
-                                 Web Development of both Front-end and Back-end by keeping up in pace with
-                                  the newly emerging Technologies and contributing to the Organization.</p>
+                    <div class="row">
+                        <div class="card custom-card shadow">
+                            <div class="card-body">
+                                <h5 class="card-title">Ping Me on ...</h5>
+                                <p class="card-text">I am Passionate to work in the field of Software</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- text-center will center text or images -->
-            <div class="col-md-6 col-sm-12 text-center">
-                <img class="colleagues-image" src="assets/images/colleagues.svg">
+            <div class="col-md-6 col-sm-12 details-content justify-content-center">
+                <div class="socials-container justify-content-center">
+                    <div *ngFor="let social of socialsList">
+                        <!-- clickable class not required for anchor tags -->
+                        <a class="card shadow socials-card" href={{social.link}}>
+                            <div class="card-body">
+                                <div class="socials-img-container" >
+                                    <img class="card-img-top socials-img" [src]="social.img" alt="social.title">
+                                </div>                            
+                            </div>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </div>

@@ -19,7 +19,9 @@ export class SkillsComponent implements OnInit {
       { title: "ExpressJs", img: "assets/images/skills/expressjs-logo.svg" },
       { title: "Java", img: "assets/images/skills/java-logo.svg" },
       { title: "AWS", img: "assets/images/skills/aws-logo.svg" },
-      { title: "Firebase", img: "assets/images/skills/firebase-logo.svg" }
+      { title: "Firebase", img: "assets/images/skills/firebase-logo.svg" },
+      { title: "Postman", img: "assets/images/skills/postman-logo.svg" },
+      // { title: "Insomnia", img: "assets/images/skills/insomnia-logo.svg" }
     ];
     // let row4x = [];
     // let row2x = [];

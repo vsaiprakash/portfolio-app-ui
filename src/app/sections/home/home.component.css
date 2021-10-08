@@ -1,6 +1,4 @@
 .body{
-    /* padding: 50px;
-    height: 100vh; */
     height: 100vh;
     background-color: var(--home);
 }
@@ -85,16 +83,3 @@
         position: relative;
     }
 }
-
-/* .custom-card {
-    z-index: 2;
-    transform: rotate(-7deg);
-
-    padding: 20px;
-    margin: 50px;
-
-    width: 40vw;
-    min-height: 50vh;
-} */
-
-

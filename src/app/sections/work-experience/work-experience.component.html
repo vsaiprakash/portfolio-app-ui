@@ -2,5 +2,40 @@
     <i class="bi bi-arrow-up-circle-fill clickable go-to-top" 
     (click)="goToHeaderSection()"
     data-toggle="tooltip" data-placement="top" title="Go back to start"></i>
-    <h5>Work Experience</h5>
+
+    <div class="container">
+        <h3 class="heading">Work Experience</h3>
+        <hr>
+        <div class="row">
+            <div class="col-md-12">
+                    <ng-container *ngFor="let exp of workExperienceList">
+                        <div class="worked-company">
+                            <h4>
+                                <i class="bi bi-briefcase-fill"></i>
+                                <b> {{exp.company}}</b>
+                            </h4>
+                            <div *ngFor="let project of exp.projects">                            
+                                <div class="worked-project">
+                                    <h5><b>{{project.role}} - {{project.duration}}</b></h5>
+                                    <b>Tools/Skills:</b>
+                                    <ng-container *ngFor="let skill of project.skills; let i=index">
+                                        <ng-container *ngIf="i!=0">
+                                        , 
+                                        </ng-container>
+                                        {{skill}}
+                                    </ng-container>
+                                    
+                                    <ul *ngFor="let line of project.description">
+                                        <li>{{line}}</li>
+                                    </ul>
+                                    <hr>
+                                </div>
+                            </div>
+                            <hr>
+                        </div>
+                    </ng-container>
+            </div>
+        </div>
+    </div>
+
 </div>

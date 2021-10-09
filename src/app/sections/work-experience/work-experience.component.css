@@ -4,3 +4,15 @@
     background-color: var(--work-experience);
     /* height: 100%; */
 }
+
+.heading {
+    text-align: center;
+}
+
+.worked-company {
+    padding-left: 10px;
+}
+
+.worked-project {
+    padding-left: 20px;
+}

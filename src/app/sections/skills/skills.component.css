@@ -6,6 +6,10 @@
     /* height: 100%; */
 }
 
+.heading {
+    text-align: center;
+}
+
 .skill-img {
     height: inherit;
 }

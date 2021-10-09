@@ -14,7 +14,7 @@ export class PersonalProjectsComponent implements OnInit {
     this.personalProjectsList = [
       {
         title: "Game Box App",
-        img: "https://github.com/vsaiprakash/gamebox-app-ui/assets/images/project-screenshots/gamebox-screenshot.png",
+        img: "assets/images/project-screenshots/gamebox-screenshot.png",
         sourcecode: "https://github.com/vsaiprakash/gamebox-app-ui",
         demo: "http://vsaiprakash.github.io/gamebox-app-ui"
       }

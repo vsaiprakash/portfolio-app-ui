@@ -1,3 +1,3 @@
 Logos in SVG form available at: https://github.com/gilbarbara/logos/tree/master/logos
 
-Work Experience Template: https://bootsnipp.com/snippets/Q0ppE
+SVG Backgrounds generated with: https://www.svgbackgrounds.com/

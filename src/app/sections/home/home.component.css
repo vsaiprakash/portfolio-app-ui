@@ -1,6 +1,10 @@
 .body{
     height: 100vh;
     background-color: var(--home);
+    background-image: url(/assets/images/backgrounds/home-bg.svg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 .stack-body {

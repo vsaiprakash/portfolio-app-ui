@@ -1,3 +1,10 @@
+
+.navbar{
+    background-image: url(/assets/images/backgrounds/menubar-bg.svg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
+}
 .nav-link {
     color:aliceblue !important;
 }

@@ -3,10 +3,10 @@
     min-height: 100vh;
     background-color: var(--contact-me);
     /* height: 100%; */
-    background-image: url(/assets/images/colleagues.svg);
+    background-image: url(/assets/images/backgrounds/liquid-cheese.svg);
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
-    background-size:contain; 
+    background-size: cover; 
     /* Resize the background image to cover the entire container */
 }
 

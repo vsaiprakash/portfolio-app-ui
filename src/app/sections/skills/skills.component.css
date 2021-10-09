@@ -1,6 +1,6 @@
 .body{
     padding: 50px;
-    height: 100vh;
+    min-height: 100vh;
     /* background-color:lavender; */
     background-color: var(--skills);
     /* height: 100%; */

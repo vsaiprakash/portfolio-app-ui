@@ -1,6 +1,6 @@
 .body{
     padding: 50px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--contact-me);
     /* height: 100%; */
     background-image: url(/assets/images/colleagues.svg);

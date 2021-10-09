@@ -2,18 +2,31 @@
     <i class="bi bi-arrow-up-circle-fill clickable go-to-top" 
     (click)="goToHeaderSection()"
     data-toggle="tooltip" data-placement="top" title="Go back to start"></i>
-
+    <h6>Primary Skills</h6>
     <div class="skills-container justify-content-center">
-      <div *ngFor="let skill of skillsList">
+      <div *ngFor="let skill of primarySkillsList">
         <div class="card shadow">
           <div class="skill-img-container">
             <img class="card-img-top skill-img" [src]="skill.img" alt="Card image cap">
           </div>
-    
           <div class="card-body">
-            <h5 class="card-title">{{skill.title}}</h5>
-            <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
-            <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p> -->
+            <p class="card-text">{{skill.title}}</p>
+            <!-- <h5 class="card-title">{{skill.title}}</h5> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h6>Secondary Skills</h6>
+    <div class="skills-container justify-content-center">
+      <div *ngFor="let skill of secondarySkillsList">
+        <div class="card shadow">
+          <div class="skill-img-container">
+            <img class="card-img-top skill-img" [src]="skill.img" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{skill.title}}</p>
+            <!-- <h5 class="card-title">{{skill.title}}</h5> -->
           </div>
         </div>
       </div>

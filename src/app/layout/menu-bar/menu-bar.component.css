@@ -1,6 +1,7 @@
 
 .navbar{
-    background-image: url(/assets/images/backgrounds/menubar-bg.svg);
+    /* Image URLs need to be full for github pages */
+    background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/menubar-bg.svg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 

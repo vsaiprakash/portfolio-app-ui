@@ -1,7 +1,8 @@
 .body{
     height: 100vh;
     background-color: var(--home);
-    background-image: url(/assets/images/backgrounds/home-bg.svg);
+    /* Image URLs need to be full for github pages */
+    background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/home-bg.svg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 

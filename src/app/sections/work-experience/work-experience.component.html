@@ -16,15 +16,16 @@
                             </h4>
                             <div *ngFor="let project of exp.projects">                            
                                 <div class="worked-project">
-                                    <h5><b>{{project.role}} - {{project.duration}}</b></h5>
+                                    <h5><b>Project: {{project.title}}</b></h5>
+                                    <h6><b>{{project.role}}</b> - {{project.duration}}</h6>
                                     <b>Tools/Skills:</b>
-                                    <ng-container *ngFor="let skill of project.skills; let i=index">
+                                    <ng-container style="float: right" *ngFor="let skill of project.skills; let i=index">
                                         <ng-container *ngIf="i!=0">
                                         , 
                                         </ng-container>
                                         {{skill}}
                                     </ng-container>
-                                    
+                                
                                     <ul *ngFor="let line of project.description">
                                         <li>{{line}}</li>
                                     </ul>

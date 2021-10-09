@@ -1,3 +1,5 @@
 Logos in SVG form available at: https://github.com/gilbarbara/logos/tree/master/logos
 
 SVG Backgrounds generated with: https://www.svgbackgrounds.com/
+
+Favicon generated with: https://favicon.io/favicon-generator/

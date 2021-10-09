@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { SectionControllerService } from '../section-controller.service';
+import { SectionControllerService } from './../../sections/section-controller.service';
 
 @Component({
   selector: 'app-menu-bar',

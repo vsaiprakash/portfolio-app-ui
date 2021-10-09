@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
-import { MenuBarComponent } from './sections/menu-bar/menu-bar.component';
+import { MenuBarComponent } from './layout/menu-bar/menu-bar.component';
 import { HomeComponent } from './sections/home/home.component';
 import { SkillsComponent } from './sections/skills/skills.component';
 import { ProjectsComponent } from './sections/projects/projects.component';

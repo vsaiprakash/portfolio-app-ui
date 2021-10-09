@@ -3,4 +3,9 @@
     min-height: 100vh;
     background-color: var(--personal-projects);
     /* height: 100%; */
+    /* Image URLs need to be full for github pages */
+    background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/personal-projects-bg.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }

@@ -1,0 +1,5 @@
+.body{
+    padding: 50px;
+    height: 100vh;
+    background-color: var(--contact-me);
+}

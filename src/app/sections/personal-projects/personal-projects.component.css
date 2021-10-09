@@ -1,0 +1,6 @@
+.body{
+    padding: 50px;
+    height: 100vh;
+    background-color: var(--personal-projects);
+    /* height: 100%; */
+}

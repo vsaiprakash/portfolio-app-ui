@@ -6,8 +6,10 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MenuBarComponent } from './layout/menu-bar/menu-bar.component';
 import { HomeComponent } from './sections/home/home.component';
 import { SkillsComponent } from './sections/skills/skills.component';
-import { ProjectsComponent } from './sections/projects/projects.component';
+import { PersonalProjectsComponent } from './sections/personal-projects/personal-projects.component';
 import { ContactMeComponent } from './sections/contact-me/contact-me.component';
+import { WorkExperienceComponent } from './sections/work-experience/work-experience.component';
+import { EducationComponent } from './sections/education/education.component';
 
 @NgModule({
   declarations: [
@@ -15,8 +17,10 @@ import { ContactMeComponent } from './sections/contact-me/contact-me.component';
     MenuBarComponent,
     HomeComponent,
     SkillsComponent,
-    ProjectsComponent,
-    ContactMeComponent
+    PersonalProjectsComponent,
+    ContactMeComponent,
+    WorkExperienceComponent,
+    EducationComponent
   ],
   imports: [
     BrowserModule,

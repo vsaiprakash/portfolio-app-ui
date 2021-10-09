@@ -12,11 +12,13 @@ export class SectionControllerService {
 
   constructor() {
     this.sections = [
-      "header",
-      "home",
-      "skills",
-      "projects",
-      "contact-me"
+      "header", //0
+      "home", //1
+      "skills", //2
+      "work-experience", //3
+      "personal-projects", //4
+      "education", //5
+      "contact-me" //6
     ]
     this.selectedSection = new BehaviorSubject<string>(this.sections[0]);
     this.$selectedSection = this.selectedSection.asObservable();

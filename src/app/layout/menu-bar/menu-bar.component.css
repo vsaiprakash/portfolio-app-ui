@@ -6,8 +6,8 @@
     color: var(--contact-me) !important;
 }
 
-.projects-button:hover{
-    color: var(--projects) !important;
+.personal-projects-button:hover{
+    color: var(--personal-projects) !important;
 }
 
 .skills-button:hover{

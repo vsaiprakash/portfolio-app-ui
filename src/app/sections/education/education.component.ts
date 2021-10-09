@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { SectionControllerService } from '../section-controller.service';
 
 @Component({
-  selector: 'app-projects',
-  templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  selector: 'app-education',
+  templateUrl: './education.component.html',
+  styleUrls: ['./education.component.css']
 })
-export class ProjectsComponent implements OnInit {
+export class EducationComponent implements OnInit {
 
   constructor(private sectionController: SectionControllerService) { }
 

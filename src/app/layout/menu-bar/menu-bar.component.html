@@ -16,26 +16,29 @@
             <li class="nav-item">
                 <a class="nav-link clickable skills-button" (click)="goToSkillsSection()">Skills</a>
             </li>
-            <li class="nav-item">
-                <a class="nav-link clickable projects-button" (click)="goToProjectsSection()">Projects</a>
-            </li>
-            <li class="nav-item">
-                <!-- href="#"  -->
-                <a class="nav-link clickable contact-me-button" (click)="goToContactMeSection()">Contact Me</a>
-            </li>
-            <!-- <li class="nav-item dropdown">
+            <!-- <li class="nav-item">
+                <a class="nav-link clickable projects-button" (click)="goToPersonalProjectsSection()">Projects</a>
+            </li> -->
+            <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
                     aria-haspopup="true" aria-expanded="false">
-                    Dropdown
+                    Projects
                 </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Action</a>
-                    <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-menu shadow" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item clickable" (click)="goToWorkExperienceSection()">Work Experience</a>
+                    <a class="dropdown-item clickable personal-projects-button" (click)="goToPersonalProjectsSection()">Personal Projects</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="#">Something else here</a>
+                    <a class="dropdown-item clickable disabled">Coming Soon</a>
                 </div>
             </li>
             <li class="nav-item">
+                <a class="nav-link clickable education-button" (click)="goToEducationSection()">Education</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link clickable contact-me-button" (click)="goToContactMeSection()">Contact Me</a>
+            </li>
+
+            <!-- <li class="nav-item">
                 <a class="nav-link disabled" href="#">Disabled</a>
             </li> -->
         </ul>

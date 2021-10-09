@@ -25,11 +25,19 @@ export class MenuBarComponent implements OnInit {
     this.sectionController.updateSection(2);
   }
 
-  goToProjectsSection(){
+  goToWorkExperienceSection(){
     this.sectionController.updateSection(3);
   }
 
-  goToContactMeSection(){
+  goToPersonalProjectsSection(){
     this.sectionController.updateSection(4);
+  }
+
+  goToEducationSection(){
+    this.sectionController.updateSection(5);
+  }
+
+  goToContactMeSection(){
+    this.sectionController.updateSection(6);
   }
 }

@@ -10,6 +10,7 @@ import { PersonalProjectsComponent } from './sections/personal-projects/personal
 import { ContactMeComponent } from './sections/contact-me/contact-me.component';
 import { WorkExperienceComponent } from './sections/work-experience/work-experience.component';
 import { EducationComponent } from './sections/education/education.component';
+import { FooterComponent } from './layout/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { EducationComponent } from './sections/education/education.component';
     PersonalProjectsComponent,
     ContactMeComponent,
     WorkExperienceComponent,
-    EducationComponent
+    EducationComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

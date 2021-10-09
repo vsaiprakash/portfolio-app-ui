@@ -36,7 +36,7 @@ export class SkillsComponent implements OnInit {
       { title: "RabbitMQ", img: "assets/images/skills/rabbitmq-logo.svg" },
       { title: "HTML", img: "assets/images/skills/html5-logo.svg" },
       { title: "CSS", img: "assets/images/skills/css3-logo.svg" },
-      { title: "Less", img: "assets/images/skills/less-logo.svg" },
+      { title: "Sass", img: "assets/images/skills/sass-logo.svg" },
       { title: "Serverless", img: "assets/images/skills/serverless-logo.svg" },
     ];
   }

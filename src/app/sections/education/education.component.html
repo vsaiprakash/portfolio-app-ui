@@ -1,6 +1,34 @@
 <div class="body">
-    <i class="bi bi-arrow-up-circle-fill clickable go-to-top" 
-    (click)="goToHeaderSection()"
-    data-toggle="tooltip" data-placement="top" title="Go back to start"></i>
-    <p>Education<p>
+    <i class="bi bi-arrow-up-circle-fill clickable go-to-top" (click)="goToHeaderSection()" data-toggle="tooltip"
+        data-placement="top" title="Go back to start"></i>
+    <h5>Certifications</h5>
+    <ul *ngFor="let certification of certificatesList">
+        <li>
+            {{certification.title}} 
+            ( <a href={{certification.link}}>
+                <i class="bi bi-link-45deg"></i>
+                link
+            </a> )
+        </li>
+    </ul>
+    <br>
+    <hr>
+    <h5>Education</h5>
+    <p>
+    <table class="table table-hover table-sm">
+        <thead>
+            <tr>
+                <th scope="col">Course</th>
+                <th scope="col">Educational Institute</th>
+                <th scope="col">Percentage</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let courseItem of educationData">
+            <tr>
+                <td>{{courseItem.course}}</td>
+                <td>{{courseItem.institute}}</td>
+                <td>{{courseItem.percentage | percent }}</td>
+            </tr>
+        </tbody>
+    </table>
 </div>

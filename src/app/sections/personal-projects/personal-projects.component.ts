@@ -17,6 +17,12 @@ export class PersonalProjectsComponent implements OnInit {
         img: "assets/images/project-screenshots/gamebox-screenshot.png",
         sourcecode: "https://github.com/vsaiprakash/gamebox-app-ui",
         demo: "http://vsaiprakash.github.io/gamebox-app-ui"
+      },
+      {
+        title: "Portfolio App",
+        img: "assets/images/project-screenshots/portfolio-screenshot.png",
+        sourcecode: "https://github.com/vsaiprakash/portfolio-app-ui",
+        demo: "http://vsaiprakash.github.io/portfolio-app-ui"
       }
     ]
   }

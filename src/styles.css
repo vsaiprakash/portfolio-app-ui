@@ -6,6 +6,7 @@
 
 body{
     --menubar: #61abff;
+    --menubar-dropdown: #7dbaff;
     --home: #61abff;
     --skills: #ffb5b5;
     --work-experience: bisque;

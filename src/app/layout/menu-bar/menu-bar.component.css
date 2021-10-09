@@ -1,5 +1,5 @@
 
-.navbar, .dropdown-menu{
+.navbar {
     background-color: var(--menubar);
     /* Image URLs need to be full for github pages */
     /* background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/menubar-bg.svg");
@@ -7,6 +7,11 @@
     background-repeat: no-repeat;
     background-size: cover;  */
 }
+
+.dropdown-menu {
+    background-color: var(--menubar-dropdown);
+}
+
 .nav-link, .dropdown-item {
     color:#F0F8FF !important;
 }

@@ -2,8 +2,10 @@
     padding: 50px;
     min-height: 100vh;
     /* background-color:lavender; */
-    background-color: var(--skills);
-    /* height: 100%; */
+    background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/skills-bg.svg");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; 
 }
 
 .heading {

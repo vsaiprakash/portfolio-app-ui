@@ -1,5 +1,5 @@
 
-.navbar{
+.navbar, .dropdown-menu{
     background-color: var(--menubar);
     /* Image URLs need to be full for github pages */
     /* background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/menubar-bg.svg");
@@ -7,11 +7,20 @@
     background-repeat: no-repeat;
     background-size: cover;  */
 }
-.nav-link {
-    color:aliceblue !important;
+.nav-link, .dropdown-item {
+    color:#F0F8FF !important;
 }
 
-.contact-me-button:hover{
+.dropdown-item.disabled {
+    color:#a3ccf0 !important;
+}
+
+.nav-link:hover, .navbar-brand:hover, .dropdown-item:hover {
+    color:#b3dbff !important;
+    background-color: var(--menubar);
+}
+
+/* .contact-me-button:hover{
     color: var(--contact-me) !important;
 }
 
@@ -25,4 +34,4 @@
 
 .home-button:hover{
     color: var(--home) !important;
-}
+} */

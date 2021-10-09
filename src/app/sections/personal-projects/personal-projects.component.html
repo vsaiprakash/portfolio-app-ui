@@ -2,5 +2,26 @@
     <i class="bi bi-arrow-up-circle-fill clickable go-to-top" 
     (click)="goToHeaderSection()"
     data-toggle="tooltip" data-placement="top" title="Go back to start"></i>
-    <h5>Personal Projects</h5>
+    <h3 class="heading">Personal Projects</h3>
+    <div class="personal-projects-container justify-content-center">
+        <div *ngFor="let personalProject of personalProjectsList">
+          <div class="card shadow">
+            <div class="personal-project-img-container">
+              <img class="card-img-top personal-project-img" [src]="personalProject.img" alt={{personalProject.title}}>
+            </div>
+            <div class="card-body">
+              <p class="card-text">{{personalProject.title}}</p>
+              <p class="card-text">
+                  <a href={{personalProject.sourcecode}}>
+                    <i class="bi bi-github"></i> Link
+                  </a>
+                  <a href={{personalProject.demo}} class="float-right">
+                    <i class="bi bi-play-circle"></i> Demo
+                  </a>
+                </p>
+              <!-- <h5 class="card-title">{{skill.title}}</h5> -->
+            </div>
+          </div>
+        </div>
+      </div>
 </div>

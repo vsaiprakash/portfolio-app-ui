@@ -5,11 +5,13 @@
 }
 
 body{
+    --menubar: #61abff;
     --home: #61abff;
     --skills: #ffb5b5;
     --work-experience: bisque;
     --personal-projects: bisque;
     --contact-me: lemonchiffon;
+    --footer: #f0ad4e;
 }
 
 /* Go To Top - Button */

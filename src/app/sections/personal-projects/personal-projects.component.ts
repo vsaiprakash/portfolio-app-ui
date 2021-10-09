@@ -8,7 +8,18 @@ import { SectionControllerService } from '../section-controller.service';
 })
 export class PersonalProjectsComponent implements OnInit {
 
-  constructor(private sectionController: SectionControllerService) { }
+  personalProjectsList: any[];
+
+  constructor(private sectionController: SectionControllerService) {
+    this.personalProjectsList = [
+      {
+        title: "Game Box App",
+        img: "https://github.com/vsaiprakash/gamebox-app-ui/assets/images/project-screenshots/gamebox-screenshot.png",
+        sourcecode: "https://github.com/vsaiprakash/gamebox-app-ui",
+        demo: "http://vsaiprakash.github.io/gamebox-app-ui"
+      }
+    ]
+  }
 
   ngOnInit(): void {
   }

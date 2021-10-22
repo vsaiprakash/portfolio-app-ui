@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
+import { Subscription } from 'rxjs';
 import { SectionControllerService } from '../section-controller.service';
 import { ContactMeService } from './contact-me.service';
 
@@ -7,25 +8,24 @@ import { ContactMeService } from './contact-me.service';
   templateUrl: './contact-me.component.html',
   styleUrls: ['./contact-me.component.css']
 })
-export class ContactMeComponent implements OnInit {
+export class ContactMeComponent implements OnInit, OnDestroy {
 
   socialsList: any[];
+  socialsListSubscription: Subscription;
 
   constructor(
     private sectionController: SectionControllerService,
     private contactMeService: ContactMeService) {
-    // this.socialsList = [
-    //   { title: "Github", img: "assets/images/socials/github-logo.svg", link: "https://github.com/vsaiprakash" },
-    //   { title: "LinkedIn", img: "assets/images/socials/linkedin-logo.svg", link: "https://www.linkedin.com/in/vsaiprakash" },
-    //   { title: "HackerRank", img: "assets/images/socials/hackerrank-logo.svg", link: "https://www.hackerrank.com/vukkumsp" },
-    //   { title: "Instagram", img: "assets/images/socials/instagram-logo.svg", link: "https://www.instagram.com/specteller" }
-    // ]
   }
 
   ngOnInit(): void {
-    this.contactMeService.getSocialsList().subscribe(res => {
+    this.socialsListSubscription = this.contactMeService.getSocialsList().subscribe(res => {
       this.socialsList = res;
     });
+  }
+
+  ngOnDestroy(): void {
+    this.socialsListSubscription.unsubscribe();
   }
 
   goToHeaderSection(){

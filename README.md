@@ -6,4 +6,4 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 https://vsaiprakash.github.io/portfolio-app-ui/
 
 ## Database
-Data is fetched from restdb.io 
+Database as a RESTful API provided by https://restdb.io/ 

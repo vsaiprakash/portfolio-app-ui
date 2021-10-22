@@ -58,4 +58,12 @@ export class EducationService {
         this.educationDataSubject.next(educationData);
         return this.educationData$;
     }
+
+    setCertificatesList(certificatesList: any) {
+      this.certificatesListSubject.next(certificatesList);
+    }
+
+    setEducationData(educationData: any) {
+      this.educationDataSubject.next(educationData);
+    }
 }

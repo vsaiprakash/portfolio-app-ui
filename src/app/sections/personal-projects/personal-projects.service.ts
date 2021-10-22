@@ -28,4 +28,8 @@ export class PersonalProjectsService {
         this.personalProjectsListSubject.next(personalProjectsList);
         return this.personalProjectsList$;
     }
+
+    setPersonalProjectsList(personalProjectsList: any[]) {
+      this.personalProjectsListSubject.next(personalProjectsList);
+    }
 }

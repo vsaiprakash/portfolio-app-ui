@@ -49,4 +49,12 @@ export class SkillsService {
         this.secondarySkillsListSubject.next(secondarySkillsList);
         return this.secondarySkillsList$;
     }
+
+    setPrimarySkillsList(primarySkillsList: any[]){
+        this.primarySkillsListSubject.next(primarySkillsList);
+    }
+
+    setSecondarySkillsList(secondarySkillsList: any[]){
+        this.secondarySkillsListSubject.next(secondarySkillsList);
+    }
 }

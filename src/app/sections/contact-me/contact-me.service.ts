@@ -20,4 +20,8 @@ export class ContactMeService {
         this.socialsListSubject.next(socialsList);
         return this.socialsList$;
     }
+
+    setSocialsList(socialsList: any[]) {
+        this.socialsListSubject.next(socialsList);
+    }
 }

@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { DataService } from './data/data.service';
 import { SectionControllerService } from './sections/section-controller.service';
 
 @Component({
@@ -12,7 +13,9 @@ export class AppComponent implements OnInit, OnDestroy {
   title = 'portfolio-app-ui';
   sectionControllerSubscription: Subscription;
 
-  constructor(private sectionController: SectionControllerService){
+  constructor(
+    private sectionController: SectionControllerService,
+    private dataService: DataService){
 
   }
 
@@ -20,6 +23,8 @@ export class AppComponent implements OnInit, OnDestroy {
     this.sectionControllerSubscription = this.sectionController.$selectedSection.subscribe(sectionSelected => {
       this.scrollToSectionId(sectionSelected);
     });
+
+    this.dataService.getData();
   }
 
   ngOnDestroy(){

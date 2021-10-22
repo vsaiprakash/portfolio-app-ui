@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { SectionControllerService } from '../section-controller.service';
+import { PersonalProjectsService } from './personal-projects.service';
 
 @Component({
   selector: 'app-personal-projects',
@@ -10,24 +11,29 @@ export class PersonalProjectsComponent implements OnInit {
 
   personalProjectsList: any[];
 
-  constructor(private sectionController: SectionControllerService) {
-    this.personalProjectsList = [
-      {
-        title: "Game Box App",
-        img: "assets/images/project-screenshots/gamebox-screenshot.png",
-        sourcecode: "https://github.com/vsaiprakash/gamebox-app-ui",
-        demo: "http://vsaiprakash.github.io/gamebox-app-ui"
-      },
-      {
-        title: "Portfolio App",
-        img: "assets/images/project-screenshots/portfolio-screenshot.png",
-        sourcecode: "https://github.com/vsaiprakash/portfolio-app-ui",
-        demo: "http://vsaiprakash.github.io/portfolio-app-ui"
-      }
-    ]
+  constructor(
+    private sectionController: SectionControllerService,
+    private personalProjectsService: PersonalProjectsService) {
+    // this.personalProjectsList = [
+    //   {
+    //     title: "Game Box App",
+    //     img: "assets/images/project-screenshots/gamebox-screenshot.png",
+    //     sourcecode: "https://github.com/vsaiprakash/gamebox-app-ui",
+    //     demo: "http://vsaiprakash.github.io/gamebox-app-ui"
+    //   },
+    //   {
+    //     title: "Portfolio App",
+    //     img: "assets/images/project-screenshots/portfolio-screenshot.png",
+    //     sourcecode: "https://github.com/vsaiprakash/portfolio-app-ui",
+    //     demo: "http://vsaiprakash.github.io/portfolio-app-ui"
+    //   }
+    // ]
   }
 
   ngOnInit(): void {
+    this.personalProjectsService.getPersonalProjectsList().subscribe(res => {
+      this.personalProjectsList = res;
+    });
   }
 
   goToHeaderSection(){

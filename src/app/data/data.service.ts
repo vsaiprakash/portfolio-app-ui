@@ -15,7 +15,7 @@ export class DataService {
   // https://restdb.io/   Free DB as RESTful API
   // apiKey: 6172afd28597142da1745916
   // Set Web Page Key with CORS enabled urls using - https://restdb.io/docs/apikeys-and-cors
-  // Change CORS from https://vsaiprakash.github.io/portfolio-app-ui/ to * when testing on Gitpod or Dev
+  // Change CORS from https://vsaiprakash.github.io to * when testing on Gitpod or Dev
   // restdb.io free account allows only one CORS enabled entry so it is required.
   url: string = "https://portfolioapp-e438.restdb.io/rest/portfolio-app-data?max=1";
   options: any = {

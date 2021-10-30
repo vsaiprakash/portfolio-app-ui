@@ -61,6 +61,7 @@ export class DataService {
 
         //Load Contact Me Data
         this.contactMeService.setSocialsList(res.contactMe.socialsList);
+        this.contactMeService.setHobbiesList(res.contactMe.hobbies);
       }
     })
   }

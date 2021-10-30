@@ -13,6 +13,9 @@ export class ContactMeComponent implements OnInit, OnDestroy {
   socialsList: any[];
   socialsListSubscription: Subscription;
 
+  hobbiesList: any[];
+  hobbiesListSubscription: Subscription;
+
   constructor(
     private sectionController: SectionControllerService,
     private contactMeService: ContactMeService) {
@@ -22,10 +25,14 @@ export class ContactMeComponent implements OnInit, OnDestroy {
     this.socialsListSubscription = this.contactMeService.getSocialsList().subscribe(res => {
       this.socialsList = res;
     });
+    this.hobbiesListSubscription = this.contactMeService.getHobbiesList().subscribe(res => {
+      this.hobbiesList = res;
+    });
   }
 
   ngOnDestroy(): void {
     this.socialsListSubscription.unsubscribe();
+    this.hobbiesListSubscription.unsubscribe();
   }
 
   goToHeaderSection(){

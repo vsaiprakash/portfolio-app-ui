@@ -135,14 +135,14 @@
         {
           "title": "Game Box App",
           "img": "assets/images/project-screenshots/gamebox-screenshot.png",
-          "sourcecode": "https://github.com/vsaiprakash/gamebox-app-ui",
-          "demo": "http://vsaiprakash.github.io/gamebox-app-ui"
+          "sourcecode": "https://github.com/vukkumsp/gamebox-app-ui",
+          "demo": "http://vukkumsp.github.io/gamebox-app-ui"
         },
         {
           "title": "Portfolio App",
           "img": "assets/images/project-screenshots/portfolio-screenshot.png",
-          "sourcecode": "https://github.com/vsaiprakash/portfolio-app-ui",
-          "demo": "http://vsaiprakash.github.io/portfolio-app-ui"
+          "sourcecode": "https://github.com/vukkumsp/portfolio-app-ui",
+          "demo": "http://vukkumsp.github.io/portfolio-app-ui"
         }
     ],
     "education": {
@@ -184,8 +184,8 @@
       },
       "contact-me": {
         "socials-list": [
-                { "title": "Github", "img": "assets/images/socials/github-logo.svg", "link": "https://github.com/vsaiprakash" },
-                { "title": "LinkedIn", "img": "assets/images/socials/linkedin-logo.svg", "link": "https://www.linkedin.com/in/vsaiprakash" },
+                { "title": "Github", "img": "assets/images/socials/github-logo.svg", "link": "https://github.com/vukkumsp" },
+                { "title": "LinkedIn", "img": "assets/images/socials/linkedin-logo.svg", "link": "https://www.linkedin.com/in/vukkumsp" },
                 { "title": "HackerRank", "img": "assets/images/socials/hackerrank-logo.svg", "link": "https://www.hackerrank.com/vukkumsp" },
                 { "title": "Instagram", "img": "assets/images/socials/instagram-logo.svg", "link": "https://www.instagram.com/specteller" }
         ]

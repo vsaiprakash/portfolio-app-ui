@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-color: var(--contact-me);
     /* Image URLs need to be full for github pages */
-    background-image: url("https://vsaiprakash.github.io/portfolio-app-ui/assets/images/backgrounds/liquid-cheese.svg");
+    background-image: url("https://vukkumsp.github.io/portfolio-app-ui/assets/images/backgrounds/liquid-cheese.svg");
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; 

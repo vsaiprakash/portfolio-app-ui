@@ -1,5 +1,5 @@
 npm install -g angular-cli-ghpages
 
-ng build --prod --base-href https://vsaiprakash.github.io/portfolio-app-ui/
+ng build --prod --base-href https://vukkumsp.github.io/portfolio-app-ui/
 
 angular-cli-ghpages -d dist/portfolio-app-ui/ --no-silent

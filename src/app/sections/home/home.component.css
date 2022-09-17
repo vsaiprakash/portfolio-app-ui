@@ -51,6 +51,9 @@
         height: 60vh;
         /* height: 50%; */
         position: relative;
+        border-radius: 20px;
+        z-index: 1;
+        transform: rotate(-6deg);
     }
 }
 
@@ -86,5 +89,8 @@
         height: 35vh;
         /* height: 50%; */
         position: relative;
+        border-radius: 15px;
+        z-index: 1;
+        transform: rotate(-6deg);
     }
 }

@@ -10,16 +10,16 @@
             <!-- text-center will center text or images -->
             <div class="col-md-6 col-sm-12 details-content justify-content-center">
                 <div *ngFor="let social of socialsList">
-                    <div class="socials-container justify-content-center"></div>
-                    <!-- clickable class not required for anchor tags -->
-                    <a class="card shadow socials-card" href={{social.link}} data-toggle="tooltip" title={{social.title}}>
-                        <div class="card-body">
-                            <div class="socials-img-container">
-                                <img class="card-img-top socials-img" [src]="social.img" alt={{social.title}}>
+                    <div class="socials-container justify-content-center">
+                        <!-- clickable class not required for anchor tags -->
+                        <a class="card shadow socials-card" href={{social.link}} data-toggle="tooltip" title={{social.title}}>
+                            <div class="card-body">
+                                <div class="socials-img-container">
+                                    <img class="card-img-top socials-img" [src]="social.img" alt={{social.title}}>
+                                </div>
                             </div>
-                        </div>
-                    </a>
-                </div>
+                        </a>
+                    </div>
                 </div>
                 <div class="container">
                     <div class="row">

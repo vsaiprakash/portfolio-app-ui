@@ -48,6 +48,7 @@ export class DataService {
         //Load Skills Data
         this.skillsService.setPrimarySkillsList(res.skills.primarySkills);
         this.skillsService.setSecondarySkillsList(res.skills.secondarySkills);
+        this.skillsService.setOtherKnownSkillsList(res.skills.otherKnownSkills);
 
         //Load Work Experience Data
         this.workExperienceService.setWorkExperienceList(res.workExperience);

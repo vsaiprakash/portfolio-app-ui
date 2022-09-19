@@ -32,4 +32,19 @@
       </div>
     </div>
 
+    <h3 class="heading">Other Known Skills</h3>
+    <div class="skills-container justify-content-center">
+      <div *ngFor="let skill of otherKnownSkillsList">
+        <div class="card shadow">
+          <div class="skill-img-container">
+            <img class="card-img-top skill-img" [src]="skill.img" alt="Card image cap">
+          </div>
+          <div class="card-body">
+            <p class="card-text">{{skill.title}}</p>
+            <!-- <h5 class="card-title">{{skill.title}}</h5> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
 </div>

@@ -14,6 +14,8 @@ export class SkillsComponent implements OnInit, OnDestroy {
   primarySkillsListSubscription: Subscription;
   secondarySkillsList: any[];
   secondarySkillsListSubscription: Subscription;
+  otherKnownSkillsList: any[];
+  otherKnownSkillsListSubscription: Subscription;
 
   constructor(
     private sectionController: SectionControllerService,
@@ -26,6 +28,9 @@ export class SkillsComponent implements OnInit, OnDestroy {
     });
     this.secondarySkillsListSubscription = this.skillsService.getSecondarySkillsList().subscribe(res => {
       this.secondarySkillsList = res;
+    });
+    this.otherKnownSkillsListSubscription = this.skillsService.getOtherKnownSkillsList().subscribe(res => {
+      this.otherKnownSkillsList = res;
     });
   }
 

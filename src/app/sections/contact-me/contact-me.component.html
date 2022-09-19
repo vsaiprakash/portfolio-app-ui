@@ -6,23 +6,23 @@
             <!-- justify-content-center centers the objects -->
             <div class="col-md-6 col-sm-12 details-content justify-content-center">
                 <div class="socials-container justify-content-center">
-                    <div *ngFor="let social of socialsList">
-                        <!-- clickable class not required for anchor tags -->
-                        <a class="card shadow socials-card" href={{social.link}}
-                            data-toggle="tooltip" title={{social.title}}>
-                            <div class="card-body">
-                                <div class="socials-img-container" >
-                                    <img class="card-img-top socials-img" [src]="social.img" alt={{social.title}}>
-                                </div>                            
-                            </div>
-                        </a>
-                    </div>
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ_QcRMS1ate1zIBXFkp3-asz5UGjeFAENauWaymYXTgTgZA/viewform?embedded=true" width="400" height="373" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeZ_QcRMS1ate1zIBXFkp3-asz5UGjeFAENauWaymYXTgTgZA/viewform?embedded=true" width="400" height="450" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
                 </div>
 
             </div>
             <!-- text-center will center text or images -->
             <div class="col-md-6 col-sm-12 details-content justify-content-center">
+                <div *ngFor="let social of socialsList">
+                    <!-- clickable class not required for anchor tags -->
+                    <a class="card shadow socials-card" href={{social.link}}
+                        data-toggle="tooltip" title={{social.title}}>
+                        <div class="card-body">
+                            <div class="socials-img-container" >
+                                <img class="card-img-top socials-img" [src]="social.img" alt={{social.title}}>
+                            </div>                            
+                        </div>
+                    </a>
+                </div>
                 <div class="container">
                     <div class="row">
                         <div class="card custom-card shadow">

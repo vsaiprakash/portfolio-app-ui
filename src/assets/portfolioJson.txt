@@ -1,0 +1,295 @@
+{
+	"skills": {
+		"primarySkills": [
+			{
+				"title": "Angular",
+				"img": "assets/images/skills/angular-logo.svg"
+			},
+			{
+				"title": "Java",
+				"img": "assets/images/skills/java-logo.svg"
+			},
+			{
+				"title": "Spring Boot",
+				"img": "assets/images/skills/springboot-logo.svg"
+			},
+			{
+				"title": "Bootstrap",
+				"img": "assets/images/skills/bootstrap-logo.svg"
+			},
+			{
+				"title": "Javascript",
+				"img": "assets/images/skills/javascript-logo.svg"
+			},
+			{
+				"title": "JQuery",
+				"img": "assets/images/skills/jquery-logo.svg"
+			}
+		],
+		"secondarySkills": [
+			{
+				"title": "NodeJs",
+				"img": "assets/images/skills/nodejs-logo.svg"
+			},
+			{
+				"title": "Git",
+				"img": "assets/images/skills/git-logo.svg"
+			},
+			{
+				"title": "NPM",
+				"img": "assets/images/skills/npm-logo.svg"
+			},
+			{
+				"title": "RDBMS",
+				"img": "assets/images/skills/rdbms-logo.svg"
+			},
+			{
+				"title": "Firebase",
+				"img": "assets/images/skills/firebase-logo.svg"
+			},
+			{
+				"title": "HTML",
+				"img": "assets/images/skills/html5-logo.svg"
+			},
+			{
+				"title": "AWS",
+				"img": "assets/images/skills/aws-logo.svg"
+			},
+			{
+				"title": "CSS",
+				"img": "assets/images/skills/css3-logo.svg"
+			},
+			{
+				"title": "Sass",
+				"img": "assets/images/skills/sass-logo.svg"
+			},
+			{
+				"title": "Playwright JS",
+				"img": "assets/images/skills/playwright-logo.svg"
+			}
+		],
+		"otherKnownSkills": [
+			{
+				"title": "Maven",
+				"img": "assets/images/skills/maven-logo.svg"
+			},
+			{
+				"title": "Serverless",
+				"img": "assets/images/skills/serverless-logo.svg"
+			},
+			{
+				"title": "ExpressJs",
+				"img": "assets/images/skills/expressjs-logo.svg"
+			},
+			{
+				"title": "RabbitMQ",
+				"img": "assets/images/skills/rabbitmq-logo.svg"
+			},
+			{
+				"title": "Postman",
+				"img": "assets/images/skills/postman-logo.svg"
+			}
+		]
+	},
+	"workExperience": [
+		{
+			"company": "MResult Services Pvt Ltd",
+			"role": "Backend Developer",
+			"duration": "Currently working (18-October-2021 to present)",
+			"projects": [
+				{
+					"title": "Marsh McLennan Portal",
+					"role": "Full Stack Developer",
+					"skills": [
+						"Angular 10"
+					],
+					"duration": "Currently working (18-October-2021 to present)",
+					"description": [
+						"Creating & Updating new features to frontend and backend. Automation tests with Playwright.",
+						"Investigating & Fixing production issues.",
+						"Release Management for each sprint."
+					]
+				}
+			]
+		},
+		{
+			"company": "Infosys Pvt Ltd",
+			"role": "Technology Analyst",
+			"duration": "3 years 6 months (07-May-2018 to 15-October-2021)",
+			"projects": [
+				{
+					"title": "Cummins API Portal",
+					"role": "Fullstack Developer",
+					"skills": [
+						"Angular 4+",
+						"Bootstrap",
+						"Angular Material",
+						"NodeJs",
+						"Visual Studio Code",
+						"AWS Serverless",
+						"HTML",
+						"CSS",
+						"Javascript",
+						"Git"
+					],
+					"duration": "5 months",
+					"description": [
+						"Worked as a Full (MEAN) Stack Developer.",
+						"Built an AWS Lambda in Java for Client SDK Download feature using Swagger Library",
+						"Build AWS Lambda POCs using NodeJS ",
+						"Worked on improving the Frontend performance using 'Optimistic Updates' Built Code Snippet functionality at frontend using Postman Library"
+					]
+				},
+				{
+					"title": "Infosys Health Portal -  Client API Tester, Searching Drugs and Coverage",
+					"role": "Frontend Developer",
+					"skills": [
+						"Angular 4+",
+						"Bootstrap",
+						"Angular Material",
+						"Visual Studio Code",
+						"HTML",
+						"CSS",
+						"Javascript",
+						"Git"
+					],
+					"duration": "9 months",
+					"description": [
+						"Worked as a Frontend Developer.",
+						"Built a Client API Tester for customers to showcase how Health Portal API works.",
+						"Worked on Improving Searching Drugs and Coverage Plans Portal App using Angular Material."
+					]
+				},
+				{
+					"title": "Angular UI Project",
+					"role": "Frontend Developer",
+					"skills": [
+						"Angular 4",
+						"Bootstrap",
+						"Visual Studio Code",
+						"HTML",
+						"CSS",
+						"Javascript",
+						"Git"
+					],
+					"duration": "6 months",
+					"description": [
+						"An online ecommerce  site for selling food items.",
+						"Built an Angular SPA as per given requirements."
+					]
+				},
+				{
+					"title": "Middleware Project with Spring Boot Micro services",
+					"role": "Backend Developer",
+					"skills": [
+						"Spring Boot Micro services",
+						"Git",
+						"PCF Web Services",
+						"Postman",
+						"Maven",
+						"STS",
+						"RabbitMQ"
+					],
+					"duration": "1.5 years",
+					"description": [
+						"It is a Middleware Project which modifies/simplifies/manages huge loads of data obtained from one end and passes to Endpoints.  In case of any loss of data, we will replay with the help of stored data at Middleware level.",
+						"Worked on implementing new features in Micro services.",
+						"Worked in finding and fixing bugs on Micro services."
+					]
+				}
+			]
+		}
+	],
+	"personalProjects": [
+		{
+			"title": "Local Entertainment System App",
+			"img": "assets/images/project-screenshots/local-entertainment-system-screenshot.png",
+			"sourcecode": "https://github.com/vukkumsp/local-entertainment-system",
+			"demo": "https://github.com/vukkumsp/local-entertainment-system"
+		},
+		{
+			"title": "Game Box App",
+			"img": "assets/images/project-screenshots/gamebox-screenshot.png",
+			"sourcecode": "https://github.com/vukkumsp/gamebox-app-ui",
+			"demo": "http://vukkumsp.github.io/gamebox-app-ui"
+		},
+		{
+			"title": "Portfolio App",
+			"img": "assets/images/project-screenshots/portfolio-screenshot.png",
+			"sourcecode": "https://github.com/vukkumsp/portfolio-app-ui",
+			"demo": "http://vukkumsp.github.io/portfolio-app-ui"
+		},
+		{
+			"title": "Nativescript Ng Calculator App",
+			"img": "assets/images/project-screenshots/ns-ng-calculator-app-screenshot.png",
+			"sourcecode": "https://github.com/vukkumsp/ns-ng-calculator-app",
+			"demo": "https://github.com/vukkumsp/ns-ng-calculator-app"
+		}
+	],
+	"education": {
+		"certifications": [
+			{
+				"title": "Front-End JavaScript Frameworks: Angular from Coursera",
+				"link": "https://www.coursera.org/account/accomplishments/verify/M7K6GL2KVUVN"
+			},
+			{
+				"title": "Front-End Web UI Frameworks and Tools: Bootstrap 4 Coursera",
+				"link": "https://www.coursera.org/account/accomplishments/verify/5RDC8479FHXT"
+			},
+			{
+				"title": "Reactive Angular Course (with RxJs)  from Udemy",
+				"link": "https://www.udemy.com/certificate/UC-acb6ebb9-af8c-457e-80cb-d5f5a3a26184/"
+			},
+			{
+				"title": "Angular Testing Masterclass from Udemy",
+				"link": "https://www.udemy.com/certificate/UC-352eb2ea-4443-4b0d-a6f5-5dd728779bcc/"
+			}
+		],
+		"educationData": [
+			{
+				"course": "BTech (IT)",
+				"institute": "CVR College of Engineering, Hyderabad",
+				"percentage": 0.83
+			},
+			{
+				"course": "XII",
+				"institute": "Sri Chaitanya, Vijayawada",
+				"percentage": 0.91
+			},
+			{
+				"course": "X",
+				"institute": "CSI English Medium High School, Eluru Andhra Pradesh",
+				"percentage": 0.75
+			}
+		]
+	},
+	"contactMe": {
+		"socialsList": [
+			{
+				"title": "Github",
+				"img": "assets/images/socials/github-logo.svg",
+				"link": "https://github.com/vukkumsp"
+			},
+			{
+				"title": "LinkedIn",
+				"img": "assets/images/socials/linkedin-logo.svg",
+				"link": "https://www.linkedin.com/in/vukkumsp"
+			},
+			{
+				"title": "HackerRank",
+				"img": "assets/images/socials/hackerrank-logo.svg",
+				"link": "https://www.hackerrank.com/vukkumsp"
+			},
+			{
+				"title": "Instagram",
+				"img": "assets/images/socials/instagram-logo.svg",
+				"link": "https://www.instagram.com/vukkumsp"
+			}
+		],
+		"hobbies": [
+			"Exploring new Technologies",
+			"Reading non-fiction books",
+			"Drawing sometimes"
+		]
+	}
+}

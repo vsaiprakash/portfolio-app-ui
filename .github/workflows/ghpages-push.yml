@@ -42,5 +42,9 @@ jobs:
         with:
           name: dist-files
           path: ./dist
+      - name: Set up Git for deployment
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
       - name: Deploy to Github Pages
         run: angular-cli-ghpages -d ./dist/portfolio-app-ui/ --no-silent

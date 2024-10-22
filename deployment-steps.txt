@@ -1,5 +1,8 @@
+Step 1: Install helping dependency to push to ghpages
 npm install -g angular-cli-ghpages
 
-ng build --prod --base-href https://vukkumsp.github.io/portfolio-app-ui/
+Step 2: Build production ready code
+npm run build 
 
+Step 3: Deploy to ghpages using the helping dependency
 angular-cli-ghpages -d dist/portfolio-app-ui/ --no-silent

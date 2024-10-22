@@ -7,6 +7,7 @@ import { PersonalProjectsService } from '../sections/personal-projects/personal-
 import { EducationService } from '../sections/education/education.service';
 import { ContactMeService } from '../sections/contact-me/contact-me.service';
 import { WorkExperienceService } from '../sections/work-experience/work-experience.service';
+import { HomeService } from '../sections/home/home.service';
 
 @Injectable({
   providedIn: 'root'
@@ -31,6 +32,7 @@ export class DataService {
 
   constructor(
     private http: HttpClient,
+    private homeService: HomeService,
     private skillsService: SkillsService,
     private workExperienceService: WorkExperienceService,
     private personalProjectsService: PersonalProjectsService,
@@ -45,6 +47,11 @@ export class DataService {
     .pipe(map(res => res[0].data))
     .subscribe( res => {
       if(res){
+        //Loading Page / Home Page Data
+        
+        this.homeService.setProfileImagePath(res.homePageData.profileImage);
+        this.homeService.setCareerObjective(res.homePageData.careerObjective);
+
         //Load Skills Data
         this.skillsService.setPrimarySkillsList(res.skills.primarySkills);
         this.skillsService.setSecondarySkillsList(res.skills.secondarySkills);

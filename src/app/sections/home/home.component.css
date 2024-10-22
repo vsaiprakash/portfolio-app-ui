@@ -14,7 +14,7 @@
 
 .custom-card {
     z-index: 2;
-    transform: rotate(-7deg);
+    transform: rotate(-1deg);
 }
 
 .dummy-card{
@@ -53,7 +53,7 @@
         position: relative;
         border-radius: 20px;
         z-index: 1;
-        transform: rotate(-6deg);
+        transform: rotate(-3deg);
     }
 }
 
@@ -91,6 +91,6 @@
         position: relative;
         border-radius: 15px;
         z-index: 1;
-        transform: rotate(-6deg);
+        transform: rotate(-3deg);
     }
 }

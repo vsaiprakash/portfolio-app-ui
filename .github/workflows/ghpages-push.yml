@@ -47,4 +47,4 @@ jobs:
           git config user.name "GitHub Actions"
           git config user.email "actions@github.com"
       - name: Deploy to Github Pages
-        run: angular-cli-ghpages -d ./dist/portfolio-app-ui/ --no-silent
+        run: angular-cli-ghpages -d ./dist/portfolio-app-ui/ --repo="https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/vukkumsp/portfolio-app-ui.git" --no-silent

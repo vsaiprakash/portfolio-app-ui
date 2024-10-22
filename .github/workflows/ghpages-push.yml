@@ -40,4 +40,4 @@ jobs:
         with:
           name: dist-files
       - name: Deploy to Github Pages
-        run: angular-cli-ghpages -d dist/portfolio-app-ui/ --no-silent
+        run: angular-cli-ghpages -d ./dist/portfolio-app-ui/ --no-silent
